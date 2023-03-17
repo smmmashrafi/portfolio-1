@@ -10,8 +10,9 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -29,4 +30,30 @@ section {
     padding: 10px 20px;
     border-radius: 10px;
     font-weight: 700;
+}
+
+.experiment-item {
+    box-shadow: 10px 10px 40px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#pro-wexpev-eriment {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+
+#new-wexpev-eriment {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, rgb(16, 223, 95));
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
